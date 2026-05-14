@@ -28,4 +28,4 @@ with col2:
         st.write(f"Variable 1: {engine}")
         st.write(f"Variable 2: {hp}")
     
-    st.info("By\nNAMA: INDRA MALIKI FAJAR\nNPM: 237006175")
+    st.info("By INDRA MALIKI FAJAR - 237006175")
