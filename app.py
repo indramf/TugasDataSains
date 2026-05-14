@@ -10,11 +10,11 @@ st.header("PREDIKSI HARGA MOBIL")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("INPUT SPESIFIKASI:")
-    engine = st.number_input("Variable 1: Engine Size", value=2.0)
-    hp = st.number_input("Variable 2: Horsepower", value=150.0)
-    wheel = st.number_input("Variable 3: Wheelbase", value=100.0)
-    fuel = st.number_input("Variable N: Fuel Capacity", value=15.0)
+    st.subheader("INPUT SPESIFIKASI")
+    engine = st.number_input("Variable 1: Engine Size")
+    hp = st.number_input("Variable 2: Horsepower")
+    wheel = st.number_input("Variable 3: Wheelbase")
+    fuel = st.number_input("Variable N: Fuel Capacity")
     
     btn = st.button("Hitung Harga Mobil")
 
@@ -28,4 +28,4 @@ with col2:
         st.write(f"Variable 1: {engine}")
         st.write(f"Variable 2: {hp}")
     
-    st.info("SISTEM INI DIBUAT OLEH:\nNAMA: INDRA\nNPM: (Isi NPM Kamu)")
+    st.info("By\nNAMA: INDRA MALIKI FAJAR\nNPM: 237006175")
